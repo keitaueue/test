@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/dev/xampp/blogsystem/app/Services/Messenger/Messenger.php</file>
+            <file>file:/D:/dev/xampp/blogsystem/app/Http/Controllers/ArticlesController.php</file>
+            <file>file:/D:/dev/xampp/blogsystem/routes/web.php</file>
+            <file>file:/D:/dev/xampp/blogsystem/resources/views/articles/layout.blade.php</file>
+            <file>file:/D:/dev/xampp/blogsystem/app/Services/Messenger/MailMessenger.php</file>
+            <file>file:/D:/dev/xampp/blogsystem/tests/ArticlesTest.php</file>
+            <file>file:/D:/dev/xampp/blogsystem/app/Services/Messenger/BikeMessenger.php</file>
+            <file>file:/D:/dev/xampp/blogsystem/routes/api.php</file>
+        </group>
+    </open-files>
+</project-private>
