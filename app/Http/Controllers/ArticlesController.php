@@ -8,8 +8,8 @@ use App\Services\ArticleService;
 use App\Services\TagService;
 
 /**
- * 記事クラス
- * 
+ * 記事クラスa
+ *
  */
 class ArticlesController extends Controller
 {
@@ -34,7 +34,7 @@ class ArticlesController extends Controller
         // Authの設定を行う
         //$this->middleware('auth', ['except' => ['show']]);
         //$this->middleware('auth', ['except' => ['index', 'show']]);
-        
+
     }
 
     /**
@@ -59,7 +59,7 @@ class ArticlesController extends Controller
 
     /**
      * 詳細画面遷移アクション
-     * 
+     *
      * @return
      */
     public function show(Article $article){
@@ -73,7 +73,7 @@ class ArticlesController extends Controller
 
     /**
      * 登録画面遷移アクション
-     * 
+     *
      * @return
      */
     public function create(){
@@ -86,7 +86,7 @@ class ArticlesController extends Controller
 
     /**
      * 登録アクション
-     * 
+     *
      * @param type $name Description
      * @return type Description
      */
@@ -106,7 +106,7 @@ class ArticlesController extends Controller
         // [メモ] createファンクションを行う場合、modelに設定可能なフィールド名を設定する必要がある(複数代入)(https://readouble.com/laravel/5.3/ja/eloquent.html#mass-assignment)saveの場合は内部で記載するので不要
         $article = \Auth::user()->articles()->create($request->all());
         // 関連テーブルのタグ関連テーブルも併せて登録する
-        $article->tags()->attach($request->input('tag_list'));       
+        $article->tags()->attach($request->input('tag_list'));
         // [メモ] saveの場合
         //$article = new Article();
         //$article->title = $request->title;
@@ -120,7 +120,7 @@ class ArticlesController extends Controller
 
     /**
      * 編集画面遷移アクション
-     * 
+     *
      * @param type $name Description
      */
     public function edit(Article $article){
